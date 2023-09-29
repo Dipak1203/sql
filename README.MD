@@ -38,3 +38,9 @@ NoSQL
 4. Horizontal scaling
 5. Data consistency and integrity may vary depending on the type of database
 ```
+
+
+
+### Types of SQL command 
+![alt text](./types-of-sql-commands.png)
+

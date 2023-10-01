@@ -61,4 +61,9 @@ CREATE TABLE <table name> (
     CREATE TABLE student(id int, name varchar);
 ```
 
+## How to insert data in database ?
+```
+INSERT INTO <table name>(columns names separated by comma ) VALUES (<values>);
+For Example: INSERT INTO students values('1','<NAME>');
+```
 

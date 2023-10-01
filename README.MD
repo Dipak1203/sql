@@ -44,3 +44,21 @@ NoSQL
 ### Types of SQL command 
 ![alt text](./types-of-sql-commands.png)
 
+
+## How to create database ?
+```
+CREATE DATABASE <database_name>;
+``` 
+
+## How to Create a table ?
+```
+CREATE TABLE <table name> (
+    <column name> <data type>,
+    .... more column
+    );
+
+    For example 
+    CREATE TABLE student(id int, name varchar);
+```
+
+

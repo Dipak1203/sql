@@ -67,3 +67,41 @@ INSERT INTO <table name>(columns names separated by comma ) VALUES (<values>);
 For Example: INSERT INTO students values('1','<NAME>');
 ```
 
+### Data types in SQL 
+###  Data types are like other programming laguages that means the type of data. haha simple In SQL there are several types of Data type. The mainly used.
+```
+   1. Numeric 
+        => INT (Integar): Represents whole numbers, typically 32-bit or 64-bit integers.
+        => FLOAT (Float): Represents floating-point numbers with single-precision or double-precision accuracy.
+    
+    2. Charater String 
+        => CHAR(n):  Fixed-length character string with a specified length n.
+        => VARCHAR(n):  Variable-length character string with a maximum length of n.
+        => TEXT: Variable-length character string with no specific length limit.7
+    
+    3. Date and Time
+        => DATE:  Represents a date (year, month, day).
+        => TIMESTAMP: Represents a combination of date and time.
+        => DATETIME: Similar to TIMESTAMP, represents a combination of date and time.
+        => INTERVAL: Represents a time interval or duration.
+
+    4. Boolean Type
+        BOOLEAN or BOOL: Represents a true or false value.
+    
+    5. Binary Data 
+        => BINARY(n): Fixed-length binary data with a specified length n.
+        => VARBINARY(n): Variable-length binary data with a maximum length of n.
+        => BLOB: Binary large object, used for storing large binary data such as images or documents.
+    
+    6. Enumerated
+        => ENUM: Represents a set of predefined values.
+
+    7. JSON 
+        => JSON: Represents JSON (JavaScript Object Notation) data.
+        => JSONB: Represents binary JSON data, offering more efficient storage and indexing compared to JSON.
+
+```
+
+### Here Picture to Quickly understand.
+
+![alt text](./dataTypes.png);
